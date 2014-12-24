@@ -76,4 +76,6 @@ ssh: git@github.com:zhangdizhdy/mytest.git
 	删除分支：git branch -d <name>
 
 10.解决冲突
+
+	用git log --graph命令可以看到分支合并图。
 
