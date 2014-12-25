@@ -1,0 +1,158 @@
+﻿public List<String> obtain_product_image_url_list(org.jsoup.nodes.Document domDoc) {
+        List<String> imageList = new ArrayList<String>();
+        String imageUrl = null;
+        try {
+            Elements es = domDoc.select(".imagelist img");
+            for (Element e : es) {
+                imageUrl = e.attr("src").replace("_100", "_800");
+                imageList.add(imageUrl);
+            }
+        } catch (Exception ex) {
+        }
+        return imageList;
+    }
+
+ret.put(Constant.FIELD_PRODUCT_IMAGE_URLS_LIST, obtain_product_image_url_list(domDoc));
+
+	<script>
+            function deleteMailBatch(batchId){
+                var form = document.getElementById("batch");
+                if(){
+                    form.action="<%=request.getContextPath()%>/EmailServlet";
+                    form.submit();
+                }
+            }
+        </script>
+confirm('删除执行后会把所有本批次的邮件清空，确认此操作？')
+
+// 将当前目录打包成war包
+
+jar   cvf   temp.war   */  .
+
+命令格式：
+
+java cvf 打包文件名称 要打包的目录 打包文件保存路径
+
+解压自然就是:
+
+jar xvf temp.war
+
+
+update article_data01 a set a.mobile_rate=replace(a.mobile_rate,'%','');
+
+http://detail.m.tmall.com/item.htm?id=19842770800&areaId=310000
+
+zhangdizhdy.xicp.net
+
+kingsoft
+101.251.107.134
+密码：Lu41q8FnaB
+
+<%= (source.contains("什么值得买") || source.contains("北美省钱快报") || source.contains("没得比") || source.contains("白菜哦")) ? "checked" : ""%>
+
+mvn assembly:assembly -D maven.test.skip=true
+
+db.UrlQueue.find({urlNormalId:"p-amazon.com-B004XD8FFW",state:1}).sort({commitDate:-1})
+
+db.UrlQueue.find({urlNormalId:"p-amazon.com-B0083SBMGW",state:1},{'error':1,'commitDate':1}).sort({commitDate:-1})
+
+ALTER TABLE wp_yek_mgc_total ADD INDEX ix_wp_yek_mgc_total_name_update_time(total_name,update_time);
+
+<property name="javax.persistence.jdbc.url" value="jdbc:mysql://crawlerweb.mysql.rds.aliyuncs.com:3306/crawler_console?useUnicode=true&amp;characterEncoding=utf-8&amp;zeroDateTimeBehavior=convertToNull"/>
+      <property name="javax.persistence.jdbc.password" value="492u8fjdsiaohJLKrei"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.user" value="crawler"/>
+
+db.UrlQueue.find({'planId':'CategoryAppointPlan'}).sort({_id:-1})
+
+select * from wp_yek_find w where w.source_url_normalid='f-huihui.cn-47623780'
+
+db.UrlQueue.find({urlNormalId:"f-shihuo.cn-123807"})
+
+^(\d{6})$ 6位数字
+^.+(\d+).减(\d+)元.*$ 满500减30元
+^(?![0-9]+$)(?![a-zA-Z]+$)\w{8,16}$ 8到16位字母和数字组合
+
+<%=request.getAttribute(AuthFilter.cookieUserName)%>
+
+ALTER TABLE `crawler`.`wp_yek_deal`
+ADD COLUMN `subtitle` varchar(100) DEFAULT NULL COMMENT '副标题';
+
+
+if(subtitle != null && subtitle!=\"\"){##= subtitle ##}else{# #=\'\'##}
+
+
+
+select * from wp_yek_deal w where w.target_mall_url_normalid=''
+
+
+
+<span style="font-size:18px">共<%=totalPages%>页/第<input type="text" name="pagenum" id="pagenum" value="<%=curPage%>"/>页</span>                         
+
+
+
+<a id="page"<%=  nowPage== curPage ? "style='color:red;background-color: #B1CDE3;'" : ""%> onclick="page(<%=nowPage%>)"><%=nowPage%></a><%}%>
+
+
+#pagenum{
+                width: 30px;
+                height:25px;
+                font-size: 18px;
+                color: red;
+                border: 1px solid #B1CDE3;
+            }
+
+
+            document.onkeydown = function(event)
+            {
+                e = event ? event : (window.event ? window.event : null);
+                var currKey = 0;
+                currKey = e.keyCode || e.which || e.charCode;
+                if (currKey == 13) {
+                    $('#tz').click();  
+                }
+            };
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js">
+</script>
+
+添加索引：ALTER TABLE wp_yek_deal ADD INDEX ix_wp_yek_deal_source_release_date_target_mall(source_release_date,target_mall);
+
+<filter>      
+        <filter-name>CharactorFilter</filter-name>
+        <filter-class>com.donggw.crawler.webconsole.CharactorFilter</filter-class>  
+        <init-param>
+            <param-name>encoding</param-name>
+            <param-value>utf-8</param-value>
+        </init-param>
+    </filter>
+    <filter-mapping>
+
+
+        <filter-name>CharactorFilter</filter-name>
+        <url-pattern>/*</url-pattern> 
+    </filter-mapping>
+
+
+    List editNameList = MyCollectService.findEditName();
+        String editNames = "";
+        for(int i=0;i<editNameList.size();i++){
+            editNames = (String)editNameList.get(i);
+        }
+
+#var editName =editNames.join(" , "); if(editName.indexOf("zhdy")!= -1){ #
+    <button id="nocollectId" type="button" class="k-button" style="margin-top:10px;">取消收藏</button>
+    #} else {#
+    <button id="collectId" type="button" class="k-button" style="margin-top:10px;">收藏</button>
+    #}#
+
+
+SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+
+        Date date = new Date();
+        Calendar calendar = Calendar.getInstance();
+        calendar.setTime(date);
+        calendar.add(Calendar.DATE, -1);
+        Date dateBefore = sdf.parse(sdf.format(calendar.getTime()));
+	   
+db.UrlQueue.count({state:-1,commitDate:{$gt:new Date('2014-5-7')}})
