@@ -161,3 +161,4 @@ ssh: git@github.com:zhangdizhdy/mytest.git
 	要像SVN那样变态地控制权限，用Gitolite。
 
 	
+参考来源：http://www.liaoxuefeng.com/
